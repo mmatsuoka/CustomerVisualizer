@@ -1,0 +1,7 @@
+<form data-bind="submit: addItem">
+    新しいアイテム
+    <input data-bind='value: itemToAdd, valueUpdate: "afterkeydown"' />
+    <button type="submit" data-bind="enable: itemToAdd().length > 0">追加</button>
+    <p>アイテム一覧</p>
+    <select multiple="multiple" width="50" data-bind="options: items"> </select>
+</form>
