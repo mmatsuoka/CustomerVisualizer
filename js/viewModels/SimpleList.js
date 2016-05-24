@@ -9,12 +9,13 @@
  */
 define(['ojs/ojcore', 'knockout'
 ], function (oj, ko) {
+    
     /**
      * The view model for the main content view template
      */
     function SimpleListContentViewModel() {
         
-        items = ['Good', 'Bad', 'Boys'];
+        items = ["Alpha", "Beta", "Gamma"];
         
         this.items = ko.observableArray(items);
         this.itemToAdd = ko.observable("");
@@ -32,3 +33,5 @@ define(['ojs/ojcore', 'knockout'
 
     return SimpleListContentViewModel;
 });
+
+

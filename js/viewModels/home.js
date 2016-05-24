@@ -12,7 +12,7 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojchart',
     /**
      * The view model for the main content view template
      */
-    function homeContentViewModel() {
+    function formSampleViewModel() {
         var self = this;
         
         /* toggle button variables */
@@ -44,6 +44,6 @@ define(['ojs/ojcore', 'knockout', 'ojs/ojchart',
     
     
     
-    return homeContentViewModel;
+    return formSampleViewModel;
 });
 
